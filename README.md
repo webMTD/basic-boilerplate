@@ -19,7 +19,7 @@ npm install
 ```
 3. Run app
 ```bash
-npm start OR gulp watch
+npm run start OR gulp watch
 ```
 
 # Favicon Credentials
