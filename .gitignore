@@ -1,3 +1,7 @@
+#Intellij
+.DS_Store
+.idea
+
 # Build folder (get's generated when running any start or build commands)
 Build
 
