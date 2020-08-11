@@ -1,40 +1,28 @@
 # Basic Gulp Boilerplate
 
-Boilerplate for very basic web-technologyst needs. Made w/ love and Gulp v4.0.2.
+Boilerplate for very basic frontend needs. 
+
+ - Gulp v4.0.2
+ - Prettier
+ - PostCSS
+ - PreCSS
+ - Less
+ - CSSNext
 
 # Installation
 
-- `git clone https://github.com/webMTD/basic-boilerplate.git`
-- `npm install` 
-- `npm start` | `gulp watch` 
-
-## File Structure
-
 ```bash
-├── src
-│   ├── images
-│   │
-│   ├── js
-│   │   ├── main.js
-│   │   │
-│   │   └── vendors
-│   │
-│   └── scc
-│       ├── pages
-│       │
-│       └── main.scss
-│
-└── build
-    ├── images
-    │
-    ├── js
-    │   ├── app.min.js
-    │   │
-    │   └── vendors.min.js
-    │
-    └── css
-        └── styles.min.css
+git clone https://github.com/webMTD/basic-boilerplate.git
 ```
+```bash
+npm install
+```
+```bash
+npm start
+```
+```bash
+gulp watch
+``` 
 
 # Favicon Credentials
 
