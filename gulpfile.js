@@ -1,4 +1,5 @@
 const gulp = require('gulp');
+const less = require('gulp-less');
 const postcss = require('gulp-postcss');
 const postcssPresetEnv = require('postcss-preset-env');
 const precss = require('precss');
@@ -21,7 +22,7 @@ const paths = {
         dest: './build'
     },
     styles: {
-        src: './src/css/**/*.css',
+        src: './src/css/**/*.less',
         dest: './build/assets/css'
     },
     scripts: {
@@ -68,6 +69,7 @@ const styles = () =>
         .pipe(plumber())
         .pipe(sourcemaps.init())
         // .pipe(postcss([ require('postcssPresetEnv'), require('autoprefixer'), require('cssnano'), require('precss')]))
+        .pipe(less())
         .pipe(postcss([ postcssPresetEnv(), autoprefixer(), cssnano(), precss()]))
         .pipe(
             rename({
