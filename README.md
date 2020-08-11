@@ -1,4 +1,4 @@
-# Basic Gulp Boilerplate
+# Basic Gulp Boilerplate [![Build Status](https://travis-ci.org/webMTD/basic-boilerplate.svg?branch=master)](https://travis-ci.org/webMTD/basic-boilerplate)
 
 Boilerplate for very basic frontend needs. 
 
