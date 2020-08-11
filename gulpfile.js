@@ -15,6 +15,7 @@ const cssnano = require('cssnano');
 const replace = require('gulp-replace');
 const imagemin = require('gulp-imagemin');
 const plumber = require('gulp-plumber');
+const webpHTML = require('gulp-webp-html');
 
 const paths = {
     html: {
@@ -127,6 +128,12 @@ const favicon = () =>
         .src(paths.favicon.src)
         .pipe(plumber())
         .pipe(gulp.dest(paths.favicon.dest));
+
+gulp.task('html',function(){
+    gulp.src('./assets/**/*.html')
+        .pipe(webpHTML())
+        .pipe(gulp.dest('./public/'))
+});
 
 // Watches all .scss, .js and .html changes and executes the corresponding task
 function watchFiles() {
