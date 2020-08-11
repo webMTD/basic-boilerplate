@@ -5,23 +5,22 @@ Boilerplate for very basic frontend needs.
  - Gulp
  - Prettier
  - PostCSS (cssnano, autoprefixer, precss, postcss-preset-env)
- - Less
+ - LESS
  - CSSNext
 
-# Installation
-
+# Installation steps
+1. Clone repository
 ```bash
 git clone https://github.com/webMTD/basic-boilerplate.git
 ```
+2. Install all dependencies
 ```bash
 npm install
 ```
+3. Run app
 ```bash
-npm start
+npm start OR gulp watch
 ```
-```bash
-gulp watch
-``` 
 
 # Favicon Credentials
 
