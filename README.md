@@ -2,10 +2,9 @@
 
 Boilerplate for very basic frontend needs. 
 
- - Gulp v4.0.2
+ - Gulp
  - Prettier
- - PostCSS
- - PreCSS
+ - PostCSS (cssnano, autoprefixer, precss, postcss-preset-env)
  - Less
  - CSSNext
 
