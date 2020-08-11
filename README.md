@@ -2,13 +2,16 @@
 
 Boilerplate for very basic frontend needs. 
 
+## Includes
+
  - Gulp
  - Prettier
  - PostCSS (cssnano, autoprefixer, precss, postcss-preset-env)
  - LESS
  - CSSNext
+ - Browsersync 
 
-# Installation steps
+## Installation steps
 1. Clone repository
 ```bash
 git clone https://github.com/webMTD/basic-boilerplate.git
@@ -22,6 +25,8 @@ npm install
 npm run start OR gulp watch
 ```
 
-# Favicon Credentials
+## Credentials
 
-Amazing temporary favicon: [EmmanuelGR's pixel art.](https://www.newgrounds.com/art/view/emmanuelgr/idk-why-i-draw-this)
+Amazing temporary favicon: [EmmanuelGR](https://www.newgrounds.com/art/view/emmanuelgr/idk-why-i-draw-this)
+
+'Cat no banana' arts: [Marcos Lopez](https://marcosclopezblog.tumblr.com/)
