@@ -1,4 +1,4 @@
-# Basic Gulp Boilerplate [![Build Status](https://travis-ci.org/webMTD/basic-boilerplate.svg?branch=master)](https://travis-ci.org/webMTD/basic-boilerplate)
+# Basic Gulp Boilerplate [![Build Status](https://travis-ci.org/webMTD/basic-boilerplate.svg?branch=master)](https://travis-ci.org/webMTD/basic-boilerplate) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 Boilerplate for very basic frontend needs. 
 
