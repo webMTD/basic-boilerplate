@@ -15,13 +15,6 @@ Boilerplate for very basic frontend needs.
 
 ## Dependencies
 
-### Babel
-
-- [`@babel/core`](https://www.npmjs.com/package/@babel/core)
-- [`@babel/preset-env`](https://babeljs.io/docs/en/babel-preset-env)
-- [`babel-eslint`](https://github.com/babel/babel-eslint)
-  - [`eslint`](https://github.com/eslint/eslint)
-  
 ### Gulp
 
 - [`gulp`](https://www.npmjs.com/package/gulp)
@@ -40,6 +33,18 @@ Boilerplate for very basic frontend needs.
 - [`gulp-sourcemaps`](https://www.npmjs.com/package/gulp-sourcemaps)
 - [`gulp-terser`](https://www.npmjs.com/package/gulp-terser)
 - [`gulp-sourcemaps`](https://www.npmjs.com/package/gulp-sourcemaps)
+
+### Babel
+
+- [`@babel/core`](https://www.npmjs.com/package/@babel/core)
+- [`@babel/preset-env`](https://babeljs.io/docs/en/babel-preset-env)
+- [`babel-eslint`](https://github.com/babel/babel-eslint)
+
+### ESLint
+
+- [`eslint`](https://github.com/eslint/eslint)
+  - [`eslint-config-prettier`](https://www.npmjs.com/package/eslint-config-prettier)
+  - [`eslint-plugin-prettier`](https://www.npmjs.com/package/eslint-plugin-prettier)
 
 ### Other
 - [`del`](https://www.npmjs.com/package/del)
