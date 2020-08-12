@@ -60,6 +60,10 @@ npm install
 npm run start OR gulp watch
 ```
 
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
+
 ## Credentials
 
 Amazing temporary favicon: [EmmanuelGR](https://www.newgrounds.com/art/view/emmanuelgr/idk-why-i-draw-this)
