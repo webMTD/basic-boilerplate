@@ -60,7 +60,7 @@ git clone https://github.com/webMTD/basic-boilerplate.git
 ```bash
 npm install
 ```
-3. Delete developing history
+3. Delete rep history
 ```bash
 rm -rf .git
 ```
