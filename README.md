@@ -60,9 +60,13 @@ git clone https://github.com/webMTD/basic-boilerplate.git
 ```bash
 npm install
 ```
-3. Run app
+3. Delete developing history
 ```bash
-npm run start OR gulp watch
+rm -rf .git
+```
+4. Run app
+```bash
+npm run start / gulp watch
 ```
 
 ## License
